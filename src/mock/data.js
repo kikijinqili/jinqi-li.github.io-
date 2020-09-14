@@ -2,23 +2,23 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-09-14 02:19:24
+ * @LastEditTime: 2020-09-14 03:37:51
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Jinqi Li', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Front-End Developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hi, my name is',
+  name: 'JINQI LI',
+  subtitle: "I'm a Front-End Developer.",
   cta: '',
 };
 
