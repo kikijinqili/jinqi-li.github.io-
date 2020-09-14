@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-09-14 03:37:51
+ * @LastEditTime: 2020-09-14 03:44:08
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -24,7 +24,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'my-profile.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
