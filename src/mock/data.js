@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-09-14 03:51:34
+ * @LastEditTime: 2020-09-14 03:53:44
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -55,15 +55,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'movie-club.jpg',
-    title: 'Movie Club iOS App',
-    info: 'This is an iOS app, built with Swift in Xcode.',
-    info2: '',
-    url: 'https://youtu.be/YSGVl_IfOg4',
-    repo: 'https://github.com/kikijinqili/CIM613-MobileAppDev', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'eng-khh.jpg',
     title: 'English Vocabulary in Korean Hip Hop',
     info: 'This is data visualization project, built with D3.js.',
@@ -79,6 +70,15 @@ export const projectsData = [
     info2: '',
     url: 'https://kikijinqili.github.io/JMM692-DataVizStudio/Ver1/index.html',
     repo: 'https://github.com/kikijinqili/JMM692-DataVizStudio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'movie-club.jpg',
+    title: 'Movie Club iOS App',
+    info: 'This is an iOS app, built with Swift in Xcode.',
+    info2: '',
+    url: 'https://youtu.be/YSGVl_IfOg4',
+    repo: 'https://github.com/kikijinqili/CIM613-MobileAppDev', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
