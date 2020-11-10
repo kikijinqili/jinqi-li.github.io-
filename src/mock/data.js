@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-09-14 04:28:50
+ * @LastEditTime: 2020-11-10 15:41:17
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -41,8 +41,8 @@ export const projectsData = [
     info:
       'This is a clone of Coca-Cola US website, built with React.js, for further research purpose.',
     info2: '',
-    url: 'https://warm-refuge-29675.herokuapp.com/products/coca-cola/',
-    repo: 'https://github.com/kikijinqili/cocacola-clone', // if no repo, the button will not show up
+    url: 'https://kikijinqili.github.io/cocacola',
+    repo: 'https://github.com/kikijinqili/cocacola', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -97,7 +97,7 @@ export const projectsData = [
     info: 'This is a clone of Nike US website, built with React.js, for further research purpose.',
     info2: '',
     url: 'https://guarded-headland-61604.herokuapp.com/',
-    repo: 'https://github.com/kikijinqili/nike-clone', // if no repo, the button will not show up
+    repo: 'https://github.com/kikijinqili/nike', // if no repo, the button will not show up
   },
 ];
 
