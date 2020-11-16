@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-11-10 15:41:17
+ * @LastEditTime: 2020-11-16 17:38:36
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -39,7 +39,7 @@ export const projectsData = [
     img: 'coca-cola.jpg',
     title: 'Coca-Cola Clone',
     info:
-      'This is a clone of Coca-Cola US website, built with React.js, for further research purpose.',
+      'This is a clone of Coca-Cola US website with Chatbot implementation, built with React.js.',
     info2: '',
     url: 'https://kikijinqili.github.io/cocacola',
     repo: 'https://github.com/kikijinqili/cocacola', // if no repo, the button will not show up
@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'museum-ar.jpg',
     title: 'LOWE Museum AR App',
-    info: 'This is an iOS AR app, built with C# in Unity3D, for promotion purpose.',
+    info: 'This is an iOS AR app, built with C# in Unity3D, for promotional purpose.',
     info2: '',
     url: 'https://youtu.be/2pTAfya2XsE',
     repo: 'https://github.com/kikijinqili/CIM624-AugmentedReality', // if no repo, the button will not show up
