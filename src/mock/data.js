@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-11-16 18:16:24
+ * @LastEditTime: 2020-11-16 18:20:08
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -28,8 +28,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume:
-    'https://docs.google.com/document/d/1hKGj5Nw1-Hl1IlsRtmLtv8FDvETE0vzucyclLdvkMb0/edit?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1xx4rViVF_Uarkte5Z83lmHSJYX0hur8l/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
