@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-11-16 17:38:36
+ * @LastEditTime: 2020-11-16 18:13:54
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -46,18 +46,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'museum-ar.jpg',
-    title: 'LOWE Museum AR App',
-    info: 'This is an iOS AR app, built with C# in Unity3D, for promotional purpose.',
-    info2: '',
-    url: 'https://youtu.be/2pTAfya2XsE',
-    repo: 'https://github.com/kikijinqili/CIM624-AugmentedReality', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'eng-khh.jpg',
     title: 'English Vocabulary in Korean Hip Hop',
-    info: 'This is data visualization project, built with D3.js.',
+    info: 'This is a data visualization project, built with D3.js.',
     info2: '',
     url: 'https://kikijinqili.github.io/JMM629-AdvancedDataViz/Project/Website/index.html',
     repo: 'https://github.com/kikijinqili/JMM629-AdvancedDataViz', // if no repo, the button will not show up
@@ -66,10 +57,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'mcu-hero.jpg',
     title: 'Who is the Most Popular Superhero in MCU?',
-    info: 'This is data visualization project, built with D3.js.',
+    info: 'This is a data visualization project, built with D3.js.',
     info2: '',
     url: 'https://kikijinqili.github.io/JMM692-DataVizStudio/Ver1/index.html',
     repo: 'https://github.com/kikijinqili/JMM692-DataVizStudio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'jiyoung.jpg',
+    title: 'Life of Ji-young',
+    info: 'This is a interactive storytelling project, built with PIXI.js.',
+    info2: '',
+    url: 'https://kikijinqili.github.io/Capstone2020/life-of-jiyoung/',
+    repo: 'https://github.com/kikijinqili/Capstone2020', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -79,6 +79,15 @@ export const projectsData = [
     info2: '',
     url: 'https://youtu.be/YSGVl_IfOg4',
     repo: 'https://github.com/kikijinqili/CIM613-MobileAppDev', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'museum-ar.jpg',
+    title: 'LOWE Museum AR App',
+    info: 'This is an iOS AR app, built with C# in Unity3D, for promotional purpose.',
+    info2: '',
+    url: 'https://youtu.be/2pTAfya2XsE',
+    repo: 'https://github.com/kikijinqili/CIM624-AugmentedReality', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
