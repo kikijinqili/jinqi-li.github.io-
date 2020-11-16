@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-11-16 18:13:54
+ * @LastEditTime: 2020-11-16 18:16:24
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -66,7 +66,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'jiyoung.jpg',
     title: 'Life of Ji-young',
-    info: 'This is a interactive storytelling project, built with PIXI.js.',
+    info: 'This is an interactive storytelling project, built with PIXI.js.',
     info2: '',
     url: 'https://kikijinqili.github.io/Capstone2020/life-of-jiyoung/',
     repo: 'https://github.com/kikijinqili/Capstone2020', // if no repo, the button will not show up
