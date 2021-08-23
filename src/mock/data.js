@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2021-08-23 11:05:41
+ * @LastEditTime: 2021-08-23 11:08:34
  * @FilePath: \jinqi-li.github.io\src\mock\data.js
  */
 import { nanoid } from 'nanoid';
@@ -56,7 +56,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'climate.jpg',
-    title: 'Climate Change Project',
+    title: 'Eco Warriors',
     info:
       'This is an iOS mobile app project, with habit tracking and reminder features, built with Swift in Xcode, for research purpose.',
     info2: '',
