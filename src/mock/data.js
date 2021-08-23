@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2021-08-23 11:08:34
+ * @LastEditTime: 2021-08-23 15:10:21
  * @FilePath: \jinqi-li.github.io\src\mock\data.js
  */
 import { nanoid } from 'nanoid';
@@ -28,7 +28,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1KkDu8spX2iTLEgB7mRNx29uh8orG7xMM/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1GFLbH7rYOQtw9dcMuSUYEiNYgK-OsDX-/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -103,7 +103,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'movie-club.jpg',
-    title: 'Movie Club iOS App',
+    title: 'Movie Club',
     info:
       'This is an iOS mobile app project, with MVC (Model-View-Controller) architecture, built with Swift in Xcode.',
     info2: '',
