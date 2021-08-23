@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2021-08-23 10:59:34
+ * @LastEditTime: 2021-08-23 11:03:21
  * @FilePath: \jinqi-li.github.io\src\mock\data.js
  */
 import { nanoid } from 'nanoid';
@@ -55,10 +55,10 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'chunyang.jpg',
+    img: 'climate.jpg',
     title: 'Climate Change Project',
     info:
-      'This is an iOS mobile app project, with habit-tracking feature, built with Swift in Xcode, for research purpose.',
+      'This is an iOS mobile app project, with habit tracking and reminder feature, built with Swift in Xcode, for research purpose.',
     info2: '',
     url: 'https://youtu.be/2oYOtoVpTHw',
     repo: 'https://github.com/kikijinqili/ClimateProject', // if no repo, the button will not show up
