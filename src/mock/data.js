@@ -2,8 +2,8 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2020-11-16 18:20:08
- * @FilePath: /gatsby-portfolio/src/mock/data.js
+ * @LastEditTime: 2021-08-23 10:59:34
+ * @FilePath: \jinqi-li.github.io\src\mock\data.js
  */
 import { nanoid } from 'nanoid';
 
@@ -11,34 +11,64 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Jinqi Li', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Front-End Developer', // e.g: Welcome to my website
+  description: 'Full-Stack / Front-End Developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hi, my name is',
   name: 'JINQI LI',
-  subtitle: "I'm a Front-End Developer.",
+  subtitle: "I'm a Full-Stack / Front-End Developer.",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  image: 'my-profile.jpg',
+  image: 'profile-2021.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1xx4rViVF_Uarkte5Z83lmHSJYX0hur8l/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1KkDu8spX2iTLEgB7mRNx29uh8orG7xMM/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'billow.jpg',
+    title: 'Blogging Website Demo',
+    info:
+      'This is the demo of a project from my previous work, with user authentication, blog posting and commenting features, built with MERN stack and Next.js.',
+    info2: '',
+    url: 'https://billow-gilt.vercel.app',
+    repo: 'https://github.com/kikijinqili/billow', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'chunyang.jpg',
+    title: 'Chunyang Project',
+    info:
+      'This is a fan-made project, with real-time data transmission feature, built with MERN stack.',
+    info2: '',
+    url: 'https://sw-chunyang.vercel.app',
+    repo: 'https://github.com/kikijinqili/sw-chunyang', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'chunyang.jpg',
+    title: 'Climate Change Project',
+    info:
+      'This is an iOS mobile app project, with habit-tracking feature, built with Swift in Xcode, for research purpose.',
+    info2: '',
+    url: 'https://youtu.be/2oYOtoVpTHw',
+    repo: 'https://github.com/kikijinqili/ClimateProject', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'coca-cola.jpg',
     title: 'Coca-Cola Clone',
     info:
-      'This is a clone of Coca-Cola US website with Chatbot implementation, built with React.js.',
+      'This is a clone of Coca-Cola US website with Chatbot implementation, built with React.js, for research purpose.',
     info2: '',
     url: 'https://kikijinqili.github.io/cocacola',
     repo: 'https://github.com/kikijinqili/cocacola', // if no repo, the button will not show up
@@ -74,7 +104,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'movie-club.jpg',
     title: 'Movie Club iOS App',
-    info: 'This is an iOS app, built with Swift in Xcode.',
+    info:
+      'This is an iOS mobile app project, with MVC (Model-View-Controller) architecture, built with Swift in Xcode.',
     info2: '',
     url: 'https://youtu.be/YSGVl_IfOg4',
     repo: 'https://github.com/kikijinqili/CIM613-MobileAppDev', // if no repo, the button will not show up
@@ -83,7 +114,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'museum-ar.jpg',
     title: 'LOWE Museum AR App',
-    info: 'This is an iOS AR app, built with C# in Unity3D, for promotional purpose.',
+    info: 'This is an iOS AR app project, built with C# in Unity3D, for promotion purpose.',
     info2: '',
     url: 'https://youtu.be/2pTAfya2XsE',
     repo: 'https://github.com/kikijinqili/CIM624-AugmentedReality', // if no repo, the button will not show up
