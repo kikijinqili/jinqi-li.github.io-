@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'As a self starter, fast learner and motivated team player, I always enjoy being challenged and engaging with projects that require me to work outside my comfort zone and knowledge set.'}
+                    'As a self starter, fast learner and motivated team player, I always enjoy being challenged and engaging with projects that require me to work outside of my comfort zone and knowledge set.'}
                 </p>
                 <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (
