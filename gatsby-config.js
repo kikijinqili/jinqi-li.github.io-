@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2021-08-23 09:18:54
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2021-08-23 12:27:33
+ * @LastEditTime: 2021-08-23 12:49:06
  * @FilePath: \jinqi-li.github.io\gatsby-config.js
  */
 module.exports = {
@@ -56,11 +56,11 @@ module.exports = {
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
-        // gtagConfig: {
-        //   optimize_id: "OPT_CONTAINER_ID",
-        //   anonymize_ip: true,
-        //   cookie_expires: 0,
-        // },
+        gtagConfig: {
+          // optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
