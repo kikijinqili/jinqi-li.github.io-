@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2021-08-23 18:28:02
+ * @LastEditTime: 2022-02-06 15:19:19
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -41,7 +41,7 @@ export const projectsData = [
       'This is the demo of a project from my previous work, with user authentication, blog posting and commenting features, built with MERN stack and Next.js.',
     info2: '',
     url: 'https://billow-gilt.vercel.app',
-    repo: 'https://github.com/kikijinqili/billow', // if no repo, the button will not show up
+    repo: 'https://github.com/jinqili0310/billow', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,7 +51,7 @@ export const projectsData = [
       'This is a fan-made project, with real-time data transmission feature, built with MERN stack.',
     info2: '',
     url: 'https://sw-chunyang.vercel.app',
-    repo: 'https://github.com/kikijinqili/sw-chunyang', // if no repo, the button will not show up
+    repo: 'https://github.com/jinqili0310/sw-chunyang', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -61,7 +61,7 @@ export const projectsData = [
       'This is an iOS mobile app project, with habit tracking and reminder features, built with Swift in Xcode, for research purpose.',
     info2: '',
     url: 'https://youtu.be/2oYOtoVpTHw',
-    repo: 'https://github.com/kikijinqili/ClimateProject', // if no repo, the button will not show up
+    repo: 'https://github.com/jinqili0310/ClimateProject', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -70,8 +70,8 @@ export const projectsData = [
     info:
       'This is a clone of Coca-Cola US website with Chatbot implementation, built with React.js, for research purpose.',
     info2: '',
-    url: 'https://kikijinqili.github.io/cocacola',
-    repo: 'https://github.com/kikijinqili/cocacola', // if no repo, the button will not show up
+    url: 'https://jinqili0310.github.io/cocacola',
+    repo: 'https://github.com/jinqili0310/cocacola', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -79,8 +79,8 @@ export const projectsData = [
     title: 'English Vocabulary in Korean Hip Hop',
     info: 'This is a data visualization project, built with D3.js.',
     info2: '',
-    url: 'https://kikijinqili.github.io/JMM629-AdvancedDataViz/Project/Website/index.html',
-    repo: 'https://github.com/kikijinqili/JMM629-AdvancedDataViz', // if no repo, the button will not show up
+    url: 'https://jinqili0310.github.io/JMM629-AdvancedDataViz/Project/Website/index.html',
+    repo: 'https://github.com/jinqili0310/JMM629-AdvancedDataViz', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -88,8 +88,8 @@ export const projectsData = [
     title: 'Who is the Most Popular Superhero in MCU?',
     info: 'This is a data visualization project, built with D3.js.',
     info2: '',
-    url: 'https://kikijinqili.github.io/JMM692-DataVizStudio/Ver1/index.html',
-    repo: 'https://github.com/kikijinqili/JMM692-DataVizStudio', // if no repo, the button will not show up
+    url: 'https://jinqili0310.github.io/JMM692-DataVizStudio/Ver1/index.html',
+    repo: 'https://github.com/jinqili0310/JMM692-DataVizStudio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -97,8 +97,8 @@ export const projectsData = [
     title: 'Life of Ji-young',
     info: 'This is an interactive storytelling project, built with PIXI.js.',
     info2: '',
-    url: 'https://kikijinqili.github.io/Capstone2020/life-of-jiyoung/',
-    repo: 'https://github.com/kikijinqili/Capstone2020', // if no repo, the button will not show up
+    url: 'https://jinqili0310.github.io/Capstone2020/life-of-jiyoung/',
+    repo: 'https://github.com/jinqili0310/Capstone2020', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -108,7 +108,7 @@ export const projectsData = [
       'This is an iOS mobile app project, with MVC (Model-View-Controller) architecture, built with Swift in Xcode.',
     info2: '',
     url: 'https://youtu.be/YSGVl_IfOg4',
-    repo: 'https://github.com/kikijinqili/CIM613-MobileAppDev', // if no repo, the button will not show up
+    repo: 'https://github.com/jinqili0310/CIM613-MobileAppDev', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -117,7 +117,7 @@ export const projectsData = [
     info: 'This is an iOS AR app project, built with C# in Unity3D, for promotion purpose.',
     info2: '',
     url: 'https://youtu.be/2pTAfya2XsE',
-    repo: 'https://github.com/kikijinqili/CIM624-AugmentedReality', // if no repo, the button will not show up
+    repo: 'https://github.com/jinqili0310/CIM624-AugmentedReality', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -127,7 +127,7 @@ export const projectsData = [
       'This is an XR project on Magic Leap device, built with C# in Unity3D, for education purpose.',
     info2: '',
     url: 'https://youtu.be/EuMM7NejYy4',
-    repo: 'https://github.com/kikijinqili/XRCircuits-new', // if no repo, the button will not show up
+    repo: 'https://github.com/jinqili0310/XRCircuits-new', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -136,7 +136,7 @@ export const projectsData = [
     info: 'This is a clone of Nike US website, built with React.js, for further research purpose.',
     info2: '',
     url: 'https://guarded-headland-61604.herokuapp.com/',
-    repo: 'https://github.com/kikijinqili/nike', // if no repo, the button will not show up
+    repo: 'https://github.com/jinqili0310/nike', // if no repo, the button will not show up
   },
 ];
 
@@ -168,7 +168,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/kikijinqili',
+      url: 'https://github.com/jinqili0310',
     },
   ],
 };
