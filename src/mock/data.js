@@ -2,7 +2,7 @@
  * @Author: Jinqi Li
  * @Date: 2020-09-13 23:53:51
  * @LastEditors: Jinqi Li
- * @LastEditTime: 2022-02-06 15:19:19
+ * @LastEditTime: 2022-04-15 02:12:53
  * @FilePath: /gatsby-portfolio/src/mock/data.js
  */
 import { nanoid } from 'nanoid';
@@ -28,7 +28,8 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1KkDu8spX2iTLEgB7mRNx29uh8orG7xMM/view?usp=sharing', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/1ZAOevYtHLadC9_rZgbqQTjWIFhRRe6r0fEAf5SUiHww/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -163,7 +164,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/jinqi-li-79835b1a0/',
+      url: 'https://www.linkedin.com/in/jinqili/',
     },
     {
       id: nanoid(),
