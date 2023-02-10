@@ -29,7 +29,7 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: '',
   resume:
-    'https://docs.google.com/document/d/1ZAOevYtHLadC9_rZgbqQTjWIFhRRe6r0fEAf5SUiHww/edit?usp=sharing', // if no resume, the button will not show up
+    'https://drive.google.com/file/d/1Nfoj7BO_E-Lrq9ihdeP3UZlNbg5IYa-X/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
