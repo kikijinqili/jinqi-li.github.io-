@@ -11,14 +11,14 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Jinqi Li', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Full-Stack / Front-End Developer', // e.g: Welcome to my website
+  description: 'Front-End Engineer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hi, my name is',
   name: 'JINQI LI',
-  subtitle: "I'm a Full-Stack / Front-End Developer.",
+  subtitle: "I'm a Front-End Engineer.",
   cta: '',
 };
 
@@ -28,8 +28,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume:
-    'https://drive.google.com/file/d/1Nfoj7BO_E-Lrq9ihdeP3UZlNbg5IYa-X/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1Ep6H-JwMjZaCDG4T_DOAM1CcMupXJ1rF/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
