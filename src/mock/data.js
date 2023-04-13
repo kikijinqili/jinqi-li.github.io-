@@ -129,15 +129,15 @@ export const projectsData = [
     url: 'https://youtu.be/EuMM7NejYy4',
     repo: 'https://github.com/jinqili0310/XRCircuits-new', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'nike-clone.jpg',
-    title: 'Nike Clone',
-    info: 'This is a clone of Nike US website, built with React.js, for further research purpose.',
-    info2: '',
-    url: 'https://guarded-headland-61604.herokuapp.com/',
-    repo: 'https://github.com/jinqili0310/nike', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'nike-clone.jpg',
+  //   title: 'Nike Clone',
+  //   info: 'This is a clone of Nike US website, built with React.js, for further research purpose.',
+  //   info2: '',
+  //   url: 'https://guarded-headland-61604.herokuapp.com/',
+  //   repo: 'https://github.com/jinqili0310/nike', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
